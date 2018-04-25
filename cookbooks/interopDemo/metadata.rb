@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 name 'interop-demo'
 maintainer 'Brett Johnson'
 maintainer_email 'brett@sdbrett.com'

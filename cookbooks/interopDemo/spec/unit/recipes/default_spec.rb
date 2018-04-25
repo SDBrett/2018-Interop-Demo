@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Cookbook:: interop-demo
 # Spec:: default
 # Copyright:: 2018, Brett Johnson, All Rights Reserved.
