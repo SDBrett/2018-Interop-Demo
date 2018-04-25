@@ -17,7 +17,7 @@ describe 'interop-demo::default' do
   end
 
   it 'starts the httpd service' do
-    expect(chef_run).to start_service 'httpd'
+    expect(chef_run).to start_service 'apache2'
   end
 
   it 'installs httpd' do
@@ -25,6 +25,6 @@ describe 'interop-demo::default' do
   end
 
   it 'enables the httpd service' do
-    expect(chef_run).to enable_service 'httpd'
+    expect(chef_run).to enable_service 'apache2'
   end
 end
