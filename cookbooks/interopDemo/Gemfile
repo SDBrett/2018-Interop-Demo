@@ -4,6 +4,7 @@ source 'https://rubygems.org' do
   ruby '2.4.1'
   gem 'berkshelf'
   gem 'bundler'
+  gem 'chefspec'
   gem 'foodcritic'
   gem 'inspec'
   gem 'kitchen-inspec'

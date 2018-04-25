@@ -6,6 +6,7 @@ require 'bundler/setup'
 require 'rubocop/rake_task'
 require 'stove/rake_task'
 require 'foodcritic'
+require 'chefspec'
 
 desc 'Run RuboCop on the lib directory'
 RuboCop::RakeTask.new(:rubocop) do |task|
@@ -30,7 +31,7 @@ RSpec::Core::RakeTask.new(:unit) do |t|
     a.push('--format RspecJunitFormatter')
     a.push('-o junit.xml')
   end.join(' ')
-  t.pattern = 'test/unit/spec/*_spec.rb'
+  t.pattern = 'spec/unit/recipes/*_spec.rb'
 end
 
 desc 'Deploy cookbook'
