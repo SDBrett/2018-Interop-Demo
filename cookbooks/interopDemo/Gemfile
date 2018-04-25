@@ -1,0 +1,18 @@
+source 'https://rubygems.org' do
+  ruby "2.4.1"
+  
+  gem 'berkshelf'
+  gem 'bundler'
+  gem 'chef-dk'
+  gem 'inspec'
+  gem 'kitchen-inspec'
+  gem 'kitchen-vagrant'
+  gem 'net-ssh-gateway'
+  gem 'rake'
+  gem 'rubocop'
+  gem 'rubocop-checkstyle_formatter'
+  gem 'stove'
+  gem 'serverspec'
+  gem 'rspec_junit_formatter'
+  gem 'test-kitchen'
+end
