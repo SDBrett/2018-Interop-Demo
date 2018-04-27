@@ -11,7 +11,7 @@ describe package 'apache2' do
   it { should be_installed }
 end
 
-describe service('httpd') do
+describe service('apache2') do
   it { should be_running }
   it { should be_enabled }
 end
