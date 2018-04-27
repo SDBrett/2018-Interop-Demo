@@ -3,3 +3,6 @@
 Plan
 Vagrantfile
 terraform
+cookbooks/interopDemo/int-lint-results.xml
+cookbooks/interopDemo/junit.xml
+cookbooks/interopDemo/serverspec_endpoint.xml
