@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="rspec" tests="4" failures="0" errors="0" time="3.891044" timestamp="2018-04-25T16:46:36+10:00">
-  <!-- Randomized with seed 12538 -->
-  <properties/>
-  <testcase classname="spec.unit.recipes.default_spec" name="interop-demo::default converges successfully" file="./spec/unit/recipes/default_spec.rb" time="1.093107"/>
-  <testcase classname="spec.unit.recipes.default_spec" name="interop-demo::default starts the httpd service" file="./spec/unit/recipes/default_spec.rb" time="0.776634"/>
-  <testcase classname="spec.unit.recipes.default_spec" name="interop-demo::default installs httpd" file="./spec/unit/recipes/default_spec.rb" time="0.672346"/>
-  <testcase classname="spec.unit.recipes.default_spec" name="interop-demo::default enables the httpd service" file="./spec/unit/recipes/default_spec.rb" time="0.643362"/>
-</testsuite>
