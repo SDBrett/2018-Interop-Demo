@@ -13,18 +13,18 @@ describe 'interop-demo::default' do
   end
 
   it 'converges successfully' do
-    expect{chef_run}.to_not raise_error
+    expect{ chef_run }.to_not raise_error
   end
 
   it 'starts the httpd service' do
-    expect(chef_run).to start_service 'apache2'
+    expect( chef_run ).to start_service 'apache2'
   end
 
   it 'installs httpd' do
-    expect(chef_run).to install_apt_package 'apache2'
+    expect( chef_run ).to install_apt_package 'apache2'
   end
 
   it 'enables the httpd service' do
-    expect(chef_run).to enable_service 'apache2'
+    expect( chef_run ).to enable_service 'apache2'
   end
 end
