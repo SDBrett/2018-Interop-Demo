@@ -1,31 +1,31 @@
-I, [2018-04-16T16:09:52.705798 #17137]  INFO -- Kitchen: -----> Starting Kitchen (v1.20.0)
-E, [2018-04-16T16:09:52.706017 #17137] ERROR -- Kitchen: ------Exception-------
-E, [2018-04-16T16:09:52.706040 #17137] ERROR -- Kitchen: Class: Kitchen::UserError
-E, [2018-04-16T16:09:52.706057 #17137] ERROR -- Kitchen: Message: Kitchen YAML file /home/brett/Dropbox/Presentations/InteropDemo/.kitchen.yml does not exist.
-E, [2018-04-16T16:09:52.706072 #17137] ERROR -- Kitchen: ----------------------
-E, [2018-04-16T16:09:52.706086 #17137] ERROR -- Kitchen: ------Backtrace-------
-E, [2018-04-16T16:09:52.706106 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/loader/yaml.rb:65:in `read'
-E, [2018-04-16T16:09:52.706121 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/config.rb:152:in `data'
-E, [2018-04-16T16:09:52.706136 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/config.rb:131:in `suites'
-E, [2018-04-16T16:09:52.706150 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/config.rb:182:in `filter_instances'
-E, [2018-04-16T16:09:52.706165 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/config.rb:141:in `build_instances'
-E, [2018-04-16T16:09:52.706180 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/config.rb:117:in `instances'
-E, [2018-04-16T16:09:52.706195 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:112:in `filtered_instances'
-E, [2018-04-16T16:09:52.706212 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:142:in `parse_subcommand'
-E, [2018-04-16T16:09:52.706227 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/command/action.rb:35:in `block in call'
-E, [2018-04-16T16:09:52.706242 #17137] ERROR -- Kitchen: /home/brett/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
-E, [2018-04-16T16:09:52.706257 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/command/action.rb:34:in `call'
-E, [2018-04-16T16:09:52.706272 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/cli.rb:52:in `perform'
-E, [2018-04-16T16:09:52.706287 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/cli.rb:193:in `block (2 levels) in <class:CLI>'
-E, [2018-04-16T16:09:52.706301 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
-E, [2018-04-16T16:09:52.706316 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
-E, [2018-04-16T16:09:52.706331 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
-E, [2018-04-16T16:09:52.706345 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
-E, [2018-04-16T16:09:52.706362 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/bin/kitchen:13:in `block in <top (required)>'
-E, [2018-04-16T16:09:52.706378 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
-E, [2018-04-16T16:09:52.706392 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.20.0/bin/kitchen:13:in `<top (required)>'
-E, [2018-04-16T16:09:52.706407 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/bin/kitchen:23:in `load'
-E, [2018-04-16T16:09:52.706422 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/bin/kitchen:23:in `<main>'
-E, [2018-04-16T16:09:52.706436 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
-E, [2018-04-16T16:09:52.706450 #17137] ERROR -- Kitchen: /home/brett/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
-E, [2018-04-16T16:09:52.706469 #17137] ERROR -- Kitchen: ----End Backtrace-----
+I, [2018-04-27T12:29:50.812936 #31073]  INFO -- Kitchen: -----> Starting Kitchen (v1.21.1)
+E, [2018-04-27T12:29:50.814242 #31073] ERROR -- Kitchen: ------Exception-------
+E, [2018-04-27T12:29:50.814299 #31073] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2018-04-27T12:29:50.814325 #31073] ERROR -- Kitchen: Message: Kitchen YAML file /Users/brett/Dropbox/Presentations/2018-Interop-Demo/.kitchen.yml does not exist.
+E, [2018-04-27T12:29:50.814348 #31073] ERROR -- Kitchen: ----------------------
+E, [2018-04-27T12:29:50.814376 #31073] ERROR -- Kitchen: ------Backtrace-------
+E, [2018-04-27T12:29:50.814396 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2018-04-27T12:29:50.814416 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/config.rb:152:in `data'
+E, [2018-04-27T12:29:50.814436 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/config.rb:131:in `suites'
+E, [2018-04-27T12:29:50.814456 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2018-04-27T12:29:50.814476 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/config.rb:141:in `build_instances'
+E, [2018-04-27T12:29:50.814495 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/config.rb:117:in `instances'
+E, [2018-04-27T12:29:50.814515 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2018-04-27T12:29:50.814536 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2018-04-27T12:29:50.814555 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/command/action.rb:35:in `block in call'
+E, [2018-04-27T12:29:50.814575 #31073] ERROR -- Kitchen: /Users/brett/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-04-27T12:29:50.814595 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/command/action.rb:34:in `call'
+E, [2018-04-27T12:29:50.814627 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/cli.rb:52:in `perform'
+E, [2018-04-27T12:29:50.814647 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/cli.rb:193:in `block (2 levels) in <class:CLI>'
+E, [2018-04-27T12:29:50.814667 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2018-04-27T12:29:50.814687 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2018-04-27T12:29:50.814707 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2018-04-27T12:29:50.814726 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2018-04-27T12:29:50.814746 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2018-04-27T12:29:50.814765 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2018-04-27T12:29:50.814785 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.1/bin/kitchen:13:in `<top (required)>'
+E, [2018-04-27T12:29:50.814805 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/bin/kitchen:23:in `load'
+E, [2018-04-27T12:29:50.814824 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/bin/kitchen:23:in `<main>'
+E, [2018-04-27T12:29:50.814843 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+E, [2018-04-27T12:29:50.814863 #31073] ERROR -- Kitchen: /Users/brett/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+E, [2018-04-27T12:29:50.814902 #31073] ERROR -- Kitchen: ----End Backtrace-----

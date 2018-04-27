@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<checkstyle>
+  <file name='Berksfile'/>
+  <file name='Rakefile'/>
+  <file name='Gemfile'/>
+  <file name='metadata.rb'/>
+  <file name='test/integration/default/default_test.rb'/>
+  <file name='spec/spec_helper.rb'/>
+  <file name='spec/unit/recipes/default_spec.rb'/>
+  <file name='recipes/default.rb'/>
+</checkstyle>

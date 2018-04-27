@@ -3,11 +3,14 @@
 name 'interop-demo'
 maintainer 'Brett Johnson'
 maintainer_email 'brett@sdbrett.com'
-license 'Apache2'
+issues_url 'https://github.com/SDBrett/2018-Interop-Demo/issues'
+source_url 'https://github.com/SDBrett/2018-Interop-Demo'
+license 'MIT'
 description 'Installs/Configures interop-demo'
 long_description 'Installs/Configures interop-demo'
-version '0.1.0'
+version '0.2.0'
 chef_version '>= 12.14' if respond_to?(:chef_version)
+supports 'ubuntu', ' = 16.04'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when

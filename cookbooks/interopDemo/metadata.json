@@ -1,0 +1,39 @@
+{
+  "name": "interop-demo",
+  "description": "Installs/Configures interop-demo",
+  "long_description": "Installs/Configures interop-demo",
+  "maintainer": "Brett Johnson",
+  "maintainer_email": "brett@sdbrett.com",
+  "license": "Apache2",
+  "platforms": {
+
+  },
+  "dependencies": {
+    "httpd": "~> 0.6.2",
+    "apt": ">= 0.0.0"
+  },
+  "providing": {
+
+  },
+  "attributes": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+    [
+      ">= 12.14"
+    ]
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}
