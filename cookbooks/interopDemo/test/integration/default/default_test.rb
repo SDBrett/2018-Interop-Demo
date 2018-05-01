@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'serverspec'
 require 'rspec_junit_formatter'
 
 describe port(80) do
@@ -16,8 +15,8 @@ describe service('apache2') do
   it { should be_enabled }
 end
 
-set :backend, :exec
+#set :backend, :exec
 
-RSpec.configure do |config|
-  config.add_formatter 'RspecJunitFormatter', 'serverspec_endpoint.xml'
-end
+#RSpec.configure do |config|
+#  config.add_formatter 'RspecJunitFormatter', 'serverspec_endpoint.xml'
+#end
