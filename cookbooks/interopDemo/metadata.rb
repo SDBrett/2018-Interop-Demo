@@ -8,7 +8,7 @@ source_url 'https://github.com/SDBrett/2018-Interop-Demo'
 license 'MIT'
 description 'Installs/Configures interop-demo'
 long_description 'Installs/Configures interop-demo'
-version '0.2.0'
+version '0.3.0'
 chef_version '>= 12.14' if respond_to?(:chef_version)
 supports 'ubuntu', ' = 16.04'
 
